@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style/style5.css">
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        
+        @media (max-width: 768px) {
+            .contact-section {
+                flex-direction: column;
+            }
+            .map-container, .form-container {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hs" style="background-color: rgb(238, 219, 191);">
+		<header>
+			<nav>
+				<div class="logo">
+				<img src="img/file.png" width="120px" height="120px">
+				</div>
+				<ul>
+					<li><a href="home.html" >Home</a></li>
+					<li><a href="donate.html">Donate Now</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="aboutus.html">About Us</a></li>
+					<li><a href="contact.html" class="active">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+	</section><br><br><br> 
+    <div class="container">
+        <h1>Contact Us</h1>
+        <div class="contact-section">
+            <div class="map-container">
+                <h3>Our Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2419.2464031374047!2d-8.572437199999998!3d52.673588099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b5e98212e5873%3A0xca7febf3aac3fc2d!2sUniversity%20of%20Limerick!5e0!3m2!1sen!2sie!4v1731482394242!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="form-container">
+                <form>
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <section class="footer">
+        </section>
+    </div>
+    <section class="foot">
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <h3>Unity Uplift</h3>
+                    <p>Committed to ending hunger for homeless children by providing nutritious meals and support for a better future.</p>
+                    <p>&copy; 2024 Unity Uplift. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="donate.html">Donate Now</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <a href="#"><img src="img/facebook.png" alt="Facebook" width="30px" height="30px"></a>
+                    <a href="#"><img src="img/x.png" alt="Twitter" width="30px" height="30px"></a>
+                    <a href="#"><img src="img/instagram.png" alt="Instagram" width="30px" height="30px"></a>
+                    <a href="#"><img src="img/link.png" alt="LinkedIn" width="30px" height="30px"></a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>Email: support@unityuplift.org</p>
+                    <p>Phone: +353 456 7890</p>
+                    <p>Address: University of Limerick, Limerick, Ireland</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+    
+</body>
+</html>

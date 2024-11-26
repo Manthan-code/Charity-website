@@ -1,0 +1,288 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+nav{
+	background-color: white;
+	width: 100%;
+	height: 90px;
+}
+
+p:hover {
+	font-weight: bold;
+	
+	text-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	transition: 0.4s;
+}
+
+
+.logo img{
+	float: left;
+	margin-left: 10px;
+}
+ul{
+	float: right;
+	margin: 40px;
+	margin-left: 100px;
+}
+ul li{
+	display: inline-block;
+	padding-right: 15px;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+ul li a:hover{
+	color: red;
+	border-top: 3px solid tomato;
+}
+.box2{
+	height: 100px;
+	width: 45%;
+	text-align: left;
+	padding-top: 20px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 60px;
+}
+.box3{
+	height: 100px;
+	width: 45%;
+	text-align: left;
+	padding-top: 20px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 60px;
+}
+.text{
+	background-color: white;
+	width: 45%;
+	text-align: right;
+	height: 350px;
+	margin-top: 70px;
+	margin-left: 20px;
+	float: left;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 40px
+}
+.img{
+	width: 400px;
+	height: 350px;
+	margin-top: 80px;
+	float: left;
+	margin-left: 12.5px;
+}
+img.rounded {
+	border-radius: 20px;
+	
+	box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+}
+
+#color{
+	background-color: lightblue;
+	width: 100%;
+	height: 670px;
+	margin-top: 650px;
+	text-align: center;
+	padding-top: 80px;
+}
+.active{
+	color: tomato;
+}
+.check-img{
+	margin-top: 30px;
+}
+.check{
+	margin-top: 50px;
+	margin-left: 40px;
+}
+.check a{
+	font-size: 15px;
+	padding-right: 15px;
+	text-decoration: none;
+	color: black;
+}
+.check a:hover{
+	color: red;
+
+}
+button{
+	margin-top: 30px;
+	width: 200px;
+	height: 40px;
+	background-color: tomato;
+	border-style: none;
+	margin-right: 10px;
+}
+button a{
+	color: white;
+	text-decoration: none;
+}
+#white{
+	width: 100%;
+	height: 370px;
+	background-color: white;
+	text-align: center;
+	padding-top: 40px;
+}
+h1{
+	font-size: 50px;
+	padding-bottom: 20px;
+}
+
+.heads {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 90px;
+
+
+}
+
+.rating, .people, .now{
+	background-color: white;
+	margin-left: 40px;
+	margin-top: 80px;
+	margin-left: 170px;
+	width: 20%;
+	height: 200px;
+	float: left;
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 20px;  
+}
+#pink{
+	width: 100%;
+	height: 500px;
+	background-color: pink;
+}
+.odon, .ckitchen, .volunteer, .foodstorage, .transparent, .campaigns, .eud, .time, .other{
+	width: 290px;
+	height: 150px;
+	padding-left: 10px;
+	padding-top: 40px;
+	background-color: pink;
+	margin-top: 30px;
+	margin-left: 25px;
+	float: left;
+}
+
+a.highlight {
+    background-color: bisque;
+}
+
+img.cover {
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+img.menu {
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+
+
+.footer {
+    background-color: #222;
+    color: #f0f0f0;
+    padding: 25px 10px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+	margin-top: 20px;
+}
+
+.footer-about,
+.footer-links,
+.footer-social,
+.footer-contact {
+    width: 22%;
+}
+
+.footer h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #FFD700; /* Gold color for headings */
+}
+
+.footer p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #FFD700;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #444;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.footer-social a:hover {
+    background-color: #FFD700;
+    transform: scale(1.1);
+}
+
+.footer-social img {
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+
+.footer-contact p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    color: #aaa;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+
+.footer-links ul {
+    margin-left: 0;
+	margin-top: 10px; 
+}
+
+.footer-links li {
+    display: inline-block;
+    width: 48%;
+    margin-bottom: 10px;
+}
